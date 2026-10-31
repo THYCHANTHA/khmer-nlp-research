@@ -1,0 +1,30 @@
+# Generic mapping from an imported dictionary's category labels to analysis categories and removal tiers.
+# This file contains no Khmer words and no third-party dictionary content. Aliases are matched as lower-case
+# substrings of the label in the user's CSV; adapt them to the labels of the dictionary you import.
+# The tier assignment below is a DOCUMENTED RESEARCH ASSUMPTION to be tested, not an established result.
+
+categories:
+  particle: {aliases: [particle]}
+  preposition: {aliases: [preposition, relational]}
+  conjunction: {aliases: [conjunction]}
+  pronoun: {aliases: [pronoun]}
+  determiner: {aliases: [determiner, quantifier]}
+  auxiliary: {aliases: [auxiliary, aspect]}
+  function_noun: {aliases: [function noun]}
+  number_time: {aliases: [number, time]}
+  negation: {aliases: [negation]}
+  question: {aliases: [question]}
+  discourse_marker: {aliases: [discourse]}
+  politeness: {aliases: [politeness, honorific]}
+
+tiers:
+  1: [particle, preposition, conjunction]   # strategy B
+  2: [pronoun, determiner]                  # added in strategy C
+
+# Never removed, whatever the tier: negation changes sentence meaning; question words and discourse markers can
+# carry intent. A label matching a protected key (e.g. "Particles & Discourse Markers") is kept and flagged for review.
+protected_categories: [negation, question, discourse_marker]
+protected_terms: []
+
+# Labels containing these substrings are not function-word categories and are never removed automatically.
+excluded_label_substrings: [phrase, content word]

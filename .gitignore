@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+*.log
+
+# downloaded / derived third-party text (CC BY-SA): reproducible, not redistributed
+data/raw/
+data/processed/
+
+# outputs of runs with a user-supplied dictionary stay local
+reports/local_dictionary_run/
+
+# never commit third-party dictionaries or corpora
+data/external/

@@ -1,0 +1,5 @@
+strategy,top_keyword_jaccard_vs_A
+A: none,1.0
+B-freq: top 50 DF,0.0989010989010989
+C-freq: top 200 DF,0.0
+control: random 50,0.9607843137254902

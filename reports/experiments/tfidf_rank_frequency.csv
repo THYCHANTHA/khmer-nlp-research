@@ -1,0 +1,421 @@
+strategy,rank,tf
+A: none,1,38742
+A: none,2,37663
+A: none,3,37514
+A: none,4,36021
+A: none,5,33910
+A: none,6,27931
+A: none,7,24374
+A: none,8,21589
+A: none,9,20150
+A: none,10,18828
+A: none,11,18706
+A: none,12,18644
+A: none,14,14446
+A: none,15,13759
+A: none,16,13489
+A: none,18,11472
+A: none,20,11114
+A: none,22,10563
+A: none,24,9582
+A: none,27,8059
+A: none,29,7884
+A: none,32,7399
+A: none,35,6520
+A: none,39,6123
+A: none,43,5519
+A: none,47,5149
+A: none,52,4809
+A: none,57,4421
+A: none,63,4135
+A: none,70,3711
+A: none,77,3376
+A: none,84,3119
+A: none,93,2905
+A: none,102,2729
+A: none,113,2548
+A: none,124,2358
+A: none,137,2138
+A: none,151,1991
+A: none,166,1757
+A: none,183,1633
+A: none,201,1484
+A: none,221,1319
+A: none,244,1194
+A: none,269,1089
+A: none,296,1002
+A: none,326,888
+A: none,359,792
+A: none,395,721
+A: none,435,661
+A: none,479,606
+A: none,528,550
+A: none,581,489
+A: none,640,448
+A: none,705,405
+A: none,776,362
+A: none,854,331
+A: none,941,298
+A: none,1036,270
+A: none,1141,243
+A: none,1257,215
+A: none,1384,192
+A: none,1524,173
+A: none,1678,153
+A: none,1848,137
+A: none,2035,120
+A: none,2241,106
+A: none,2468,94
+A: none,2718,82
+A: none,2993,73
+A: none,3296,63
+A: none,3630,55
+A: none,3997,48
+A: none,4402,41
+A: none,4847,36
+A: none,5338,31
+A: none,5878,27
+A: none,6474,23
+A: none,7129,20
+A: none,7851,17
+A: none,8645,15
+A: none,9521,13
+A: none,10484,11
+A: none,11546,9
+A: none,12715,8
+A: none,14002,7
+A: none,15419,6
+A: none,16980,5
+A: none,18699,4
+A: none,20592,4
+A: none,22677,3
+A: none,24973,3
+A: none,27501,2
+A: none,30285,2
+A: none,33351,2
+A: none,36727,2
+A: none,40446,1
+A: none,44540,1
+A: none,49049,1
+A: none,54015,1
+A: none,59483,1
+A: none,65505,1
+A: none,72137,1
+A: none,79439,1
+A: none,87482,1
+A: none,96338,1
+B-freq: top 50 DF,1,6123
+B-freq: top 50 DF,2,5642
+B-freq: top 50 DF,3,5595
+B-freq: top 50 DF,4,5519
+B-freq: top 50 DF,5,5406
+B-freq: top 50 DF,6,5149
+B-freq: top 50 DF,7,5044
+B-freq: top 50 DF,8,4981
+B-freq: top 50 DF,9,4809
+B-freq: top 50 DF,10,4636
+B-freq: top 50 DF,11,4613
+B-freq: top 50 DF,12,4599
+B-freq: top 50 DF,14,4370
+B-freq: top 50 DF,15,4297
+B-freq: top 50 DF,16,4235
+B-freq: top 50 DF,18,3923
+B-freq: top 50 DF,20,3760
+B-freq: top 50 DF,22,3654
+B-freq: top 50 DF,24,3611
+B-freq: top 50 DF,27,3450
+B-freq: top 50 DF,29,3338
+B-freq: top 50 DF,32,3181
+B-freq: top 50 DF,35,3119
+B-freq: top 50 DF,39,3032
+B-freq: top 50 DF,43,2905
+B-freq: top 50 DF,47,2781
+B-freq: top 50 DF,52,2729
+B-freq: top 50 DF,57,2650
+B-freq: top 50 DF,63,2548
+B-freq: top 50 DF,70,2426
+B-freq: top 50 DF,77,2302
+B-freq: top 50 DF,84,2203
+B-freq: top 50 DF,93,2086
+B-freq: top 50 DF,102,1959
+B-freq: top 50 DF,113,1809
+B-freq: top 50 DF,124,1685
+B-freq: top 50 DF,137,1616
+B-freq: top 50 DF,151,1484
+B-freq: top 50 DF,166,1369
+B-freq: top 50 DF,183,1230
+B-freq: top 50 DF,201,1164
+B-freq: top 50 DF,221,1088
+B-freq: top 50 DF,244,1011
+B-freq: top 50 DF,269,895
+B-freq: top 50 DF,296,845
+B-freq: top 50 DF,326,753
+B-freq: top 50 DF,359,702
+B-freq: top 50 DF,395,650
+B-freq: top 50 DF,435,597
+B-freq: top 50 DF,479,550
+B-freq: top 50 DF,527,493
+B-freq: top 50 DF,581,455
+B-freq: top 50 DF,640,412
+B-freq: top 50 DF,704,377
+B-freq: top 50 DF,776,342
+B-freq: top 50 DF,854,313
+B-freq: top 50 DF,941,284
+B-freq: top 50 DF,1036,254
+B-freq: top 50 DF,1141,232
+B-freq: top 50 DF,1256,204
+B-freq: top 50 DF,1383,184
+B-freq: top 50 DF,1523,166
+B-freq: top 50 DF,1678,147
+B-freq: top 50 DF,1847,133
+B-freq: top 50 DF,2034,116
+B-freq: top 50 DF,2240,103
+B-freq: top 50 DF,2467,91
+B-freq: top 50 DF,2717,80
+B-freq: top 50 DF,2992,71
+B-freq: top 50 DF,3295,62
+B-freq: top 50 DF,3628,54
+B-freq: top 50 DF,3996,47
+B-freq: top 50 DF,4400,41
+B-freq: top 50 DF,4845,35
+B-freq: top 50 DF,5336,30
+B-freq: top 50 DF,5876,27
+B-freq: top 50 DF,6471,23
+B-freq: top 50 DF,7126,20
+B-freq: top 50 DF,7847,17
+B-freq: top 50 DF,8642,15
+B-freq: top 50 DF,9517,13
+B-freq: top 50 DF,10480,11
+B-freq: top 50 DF,11541,9
+B-freq: top 50 DF,12709,8
+B-freq: top 50 DF,13996,7
+B-freq: top 50 DF,15413,6
+B-freq: top 50 DF,16973,5
+B-freq: top 50 DF,18691,4
+B-freq: top 50 DF,20583,4
+B-freq: top 50 DF,22667,3
+B-freq: top 50 DF,24961,3
+B-freq: top 50 DF,27488,2
+B-freq: top 50 DF,30271,2
+B-freq: top 50 DF,33335,2
+B-freq: top 50 DF,36710,2
+B-freq: top 50 DF,40426,1
+B-freq: top 50 DF,44519,1
+B-freq: top 50 DF,49025,1
+B-freq: top 50 DF,53988,1
+B-freq: top 50 DF,59454,1
+B-freq: top 50 DF,65472,1
+B-freq: top 50 DF,72100,1
+B-freq: top 50 DF,79399,1
+B-freq: top 50 DF,87437,1
+B-freq: top 50 DF,96288,1
+C-freq: top 200 DF,1,6123
+C-freq: top 200 DF,2,3527
+C-freq: top 200 DF,3,3064
+C-freq: top 200 DF,4,2698
+C-freq: top 200 DF,5,2548
+C-freq: top 200 DF,6,2524
+C-freq: top 200 DF,7,2496
+C-freq: top 200 DF,8,2493
+C-freq: top 200 DF,9,2333
+C-freq: top 200 DF,10,2218
+C-freq: top 200 DF,11,2107
+C-freq: top 200 DF,12,2094
+C-freq: top 200 DF,14,2005
+C-freq: top 200 DF,15,1994
+C-freq: top 200 DF,16,1991
+C-freq: top 200 DF,18,1882
+C-freq: top 200 DF,20,1774
+C-freq: top 200 DF,22,1698
+C-freq: top 200 DF,24,1670
+C-freq: top 200 DF,27,1638
+C-freq: top 200 DF,29,1623
+C-freq: top 200 DF,32,1477
+C-freq: top 200 DF,35,1431
+C-freq: top 200 DF,39,1336
+C-freq: top 200 DF,43,1294
+C-freq: top 200 DF,47,1241
+C-freq: top 200 DF,52,1216
+C-freq: top 200 DF,57,1194
+C-freq: top 200 DF,63,1118
+C-freq: top 200 DF,70,1091
+C-freq: top 200 DF,77,1073
+C-freq: top 200 DF,84,1046
+C-freq: top 200 DF,93,1013
+C-freq: top 200 DF,102,968
+C-freq: top 200 DF,113,920
+C-freq: top 200 DF,124,893
+C-freq: top 200 DF,137,864
+C-freq: top 200 DF,150,823
+C-freq: top 200 DF,166,775
+C-freq: top 200 DF,182,741
+C-freq: top 200 DF,201,713
+C-freq: top 200 DF,221,689
+C-freq: top 200 DF,244,651
+C-freq: top 200 DF,268,625
+C-freq: top 200 DF,295,584
+C-freq: top 200 DF,325,553
+C-freq: top 200 DF,358,515
+C-freq: top 200 DF,395,481
+C-freq: top 200 DF,435,453
+C-freq: top 200 DF,478,419
+C-freq: top 200 DF,527,392
+C-freq: top 200 DF,580,361
+C-freq: top 200 DF,639,338
+C-freq: top 200 DF,704,313
+C-freq: top 200 DF,775,287
+C-freq: top 200 DF,853,265
+C-freq: top 200 DF,940,243
+C-freq: top 200 DF,1035,220
+C-freq: top 200 DF,1140,198
+C-freq: top 200 DF,1255,182
+C-freq: top 200 DF,1382,165
+C-freq: top 200 DF,1522,148
+C-freq: top 200 DF,1676,135
+C-freq: top 200 DF,1845,119
+C-freq: top 200 DF,2032,107
+C-freq: top 200 DF,2238,95
+C-freq: top 200 DF,2464,84
+C-freq: top 200 DF,2714,75
+C-freq: top 200 DF,2989,66
+C-freq: top 200 DF,3291,59
+C-freq: top 200 DF,3624,51
+C-freq: top 200 DF,3991,44
+C-freq: top 200 DF,4395,39
+C-freq: top 200 DF,4840,34
+C-freq: top 200 DF,5330,29
+C-freq: top 200 DF,5869,26
+C-freq: top 200 DF,6463,22
+C-freq: top 200 DF,7117,19
+C-freq: top 200 DF,7838,17
+C-freq: top 200 DF,8631,14
+C-freq: top 200 DF,9505,12
+C-freq: top 200 DF,10467,11
+C-freq: top 200 DF,11526,9
+C-freq: top 200 DF,12693,8
+C-freq: top 200 DF,13978,7
+C-freq: top 200 DF,15392,6
+C-freq: top 200 DF,16950,5
+C-freq: top 200 DF,18666,4
+C-freq: top 200 DF,20555,4
+C-freq: top 200 DF,22636,3
+C-freq: top 200 DF,24927,3
+C-freq: top 200 DF,27450,2
+C-freq: top 200 DF,30229,2
+C-freq: top 200 DF,33288,2
+C-freq: top 200 DF,36658,2
+C-freq: top 200 DF,40368,1
+C-freq: top 200 DF,44454,1
+C-freq: top 200 DF,48953,1
+C-freq: top 200 DF,53908,1
+C-freq: top 200 DF,59365,1
+C-freq: top 200 DF,65374,1
+C-freq: top 200 DF,71991,1
+C-freq: top 200 DF,79277,1
+C-freq: top 200 DF,87302,1
+C-freq: top 200 DF,96138,1
+control: random 50,1,38742
+control: random 50,2,37663
+control: random 50,3,37514
+control: random 50,4,36021
+control: random 50,5,33910
+control: random 50,6,27931
+control: random 50,7,24374
+control: random 50,8,21589
+control: random 50,9,20150
+control: random 50,10,18828
+control: random 50,11,18706
+control: random 50,12,18644
+control: random 50,14,14446
+control: random 50,15,13759
+control: random 50,16,13489
+control: random 50,18,11472
+control: random 50,20,11114
+control: random 50,22,10563
+control: random 50,24,9582
+control: random 50,27,8059
+control: random 50,29,7706
+control: random 50,32,7380
+control: random 50,35,6371
+control: random 50,39,5717
+control: random 50,43,5501
+control: random 50,47,5060
+control: random 50,52,4636
+control: random 50,57,4370
+control: random 50,63,3971
+control: random 50,70,3654
+control: random 50,77,3338
+control: random 50,84,3116
+control: random 50,93,2863
+control: random 50,102,2706
+control: random 50,113,2541
+control: random 50,124,2339
+control: random 50,137,2124
+control: random 50,151,1959
+control: random 50,166,1740
+control: random 50,183,1627
+control: random 50,201,1480
+control: random 50,221,1310
+control: random 50,244,1191
+control: random 50,269,1088
+control: random 50,296,991
+control: random 50,326,888
+control: random 50,359,791
+control: random 50,395,720
+control: random 50,435,661
+control: random 50,479,605
+control: random 50,527,550
+control: random 50,581,488
+control: random 50,640,448
+control: random 50,704,405
+control: random 50,776,362
+control: random 50,854,331
+control: random 50,941,297
+control: random 50,1036,269
+control: random 50,1141,243
+control: random 50,1256,215
+control: random 50,1383,192
+control: random 50,1523,173
+control: random 50,1678,153
+control: random 50,1847,137
+control: random 50,2034,120
+control: random 50,2240,106
+control: random 50,2467,94
+control: random 50,2717,82
+control: random 50,2992,73
+control: random 50,3295,63
+control: random 50,3628,55
+control: random 50,3996,48
+control: random 50,4400,41
+control: random 50,4845,36
+control: random 50,5336,31
+control: random 50,5876,27
+control: random 50,6471,23
+control: random 50,7126,20
+control: random 50,7847,17
+control: random 50,8642,15
+control: random 50,9517,13
+control: random 50,10480,11
+control: random 50,11541,9
+control: random 50,12709,8
+control: random 50,13996,7
+control: random 50,15413,6
+control: random 50,16973,5
+control: random 50,18691,4
+control: random 50,20583,4
+control: random 50,22667,3
+control: random 50,24961,3
+control: random 50,27488,2
+control: random 50,30271,2
+control: random 50,33335,2
+control: random 50,36710,2
+control: random 50,40426,1
+control: random 50,44519,1
+control: random 50,49025,1
+control: random 50,53988,1
+control: random 50,59454,1
+control: random 50,65472,1
+control: random 50,72100,1
+control: random 50,79399,1
+control: random 50,87437,1
+control: random 50,96288,1

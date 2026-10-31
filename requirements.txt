@@ -1,0 +1,12 @@
+khmer-nltk>=1.6
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+scipy>=1.11
+requests>=2.31
+PyYAML>=6.0
+streamlit>=1.40
+plotly>=5.20
+matplotlib>=3.8
+pytest>=8
+ruff>=0.5

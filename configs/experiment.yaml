@@ -1,0 +1,36 @@
+# Experiment configuration. All values were fixed BEFORE looking at any result; none was tuned on results.
+seed: 42
+
+corpus:
+  min_chars: 200            # lead sections shorter than this are dropped
+  min_khmer_ratio: 0.5      # share of non-space characters in Khmer script
+  min_tokens: 20            # after tokenisation
+  tokenizer: khmer-nltk
+
+# Heuristic for wiki-maintenance categories (Latin-script category names are dropped as well; see docs/methodology.md).
+maintenance_words: [អត្ថបទ, ទំព័រ, វិគីភីឌា, តំណភ្ជាប់, គំរូ, ឯកសារ, ការបកប្រែ, ប្រភព, ពិនិត្យ, ប្រើប្រាស់, ទម្រង់, ទិន្នន័យ, វិគីដេតា, ម៉ូឌុល, ដាច់តំណ]
+
+strategies:
+  freq_b_top: 50            # statistical analogue of "conservative"
+  freq_c_top: 200           # statistical analogue of "extended"
+  random_control_top: 50    # random terms, same size as B: a control, not a candidate
+
+tfidf:
+  min_df: 2
+  sublinear: true
+  top_keywords: [20, 50]
+
+retrieval:
+  n_queries: 300
+  query_tokens: 40          # the query is the first 40 tokens of a held-out article
+  near_duplicate_threshold: 0.9
+  category_min_size: 5      # categories with fewer / more members are not used as relevance labels
+  category_max_size: 60
+  extra_seeds: [1, 2, 3, 4] # stability check of the query sample
+  bootstrap: 2000
+
+classification:
+  min_class_size: 40
+  max_classes: 12
+  folds: 5
+  C: 1.0

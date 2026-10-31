@@ -1,0 +1,9 @@
+query,strategy,mean_rank,top1,top10
+first 40 tokens,A: none,1.1066666666666667,0.9866666666666667,0.9966666666666667
+full document,A: none,1.0,1.0,1.0
+first 40 tokens,B-freq: top 50 DF,1.1066666666666667,0.9866666666666667,0.9966666666666667
+full document,B-freq: top 50 DF,1.0,1.0,1.0
+first 40 tokens,C-freq: top 200 DF,1.12,0.98,0.9966666666666667
+full document,C-freq: top 200 DF,1.0,1.0,1.0
+first 40 tokens,control: random 50,1.11,0.9866666666666667,0.9966666666666667
+full document,control: random 50,1.0,1.0,1.0

@@ -1,0 +1,749 @@
+{
+  "B-freq: top 50 DF": {
+    "tokens": 2141077,
+    "removed": 639952,
+    "removed_pct": 29.889256668489736,
+    "types_removed_observed": 50,
+    "types_in_strategy": 50,
+    "top_removed": [
+      {
+        "word": "ជា",
+        "count": 38742,
+        "share_of_tokens_pct": 1.809463181380212,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 7330/8806 documents (83.2%)"
+      },
+      {
+        "word": "ដែល",
+        "count": 37663,
+        "share_of_tokens_pct": 1.7590679830758071,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 7125/8806 documents (80.9%)"
+      },
+      {
+        "word": "មាន",
+        "count": 37514,
+        "share_of_tokens_pct": 1.7521088685740869,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 6712/8806 documents (76.2%)"
+      },
+      {
+        "word": "បាន",
+        "count": 36021,
+        "share_of_tokens_pct": 1.6823776071575194,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5786/8806 documents (65.7%)"
+      },
+      {
+        "word": "និង",
+        "count": 33910,
+        "share_of_tokens_pct": 1.5837823674720712,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 7144/8806 documents (81.1%)"
+      },
+      {
+        "word": "នៅ",
+        "count": 27931,
+        "share_of_tokens_pct": 1.30453038354062,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 6381/8806 documents (72.5%)"
+      },
+      {
+        "word": "ក្នុង",
+        "count": 24374,
+        "share_of_tokens_pct": 1.138399039361966,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5782/8806 documents (65.7%)"
+      },
+      {
+        "word": "របស់",
+        "count": 21589,
+        "share_of_tokens_pct": 1.0083243152861854,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5613/8806 documents (63.7%)"
+      },
+      {
+        "word": "នៃ",
+        "count": 20150,
+        "share_of_tokens_pct": 0.941115149058161,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5717/8806 documents (64.9%)"
+      },
+      {
+        "word": "ថា",
+        "count": 18828,
+        "share_of_tokens_pct": 0.8793705224053129,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4654/8806 documents (52.9%)"
+      },
+      {
+        "word": "នេះ",
+        "count": 18706,
+        "share_of_tokens_pct": 0.8736724554978639,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4777/8806 documents (54.2%)"
+      },
+      {
+        "word": "ឆ្នាំ",
+        "count": 18644,
+        "share_of_tokens_pct": 0.870776716577685,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4758/8806 documents (54.0%)"
+      },
+      {
+        "word": "ដោយ",
+        "count": 17135,
+        "share_of_tokens_pct": 0.8002981676978456,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4815/8806 documents (54.7%)"
+      },
+      {
+        "word": "ហើយ",
+        "count": 14446,
+        "share_of_tokens_pct": 0.6747071684016969,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3948/8806 documents (44.8%)"
+      },
+      {
+        "word": "ទៅ",
+        "count": 13759,
+        "share_of_tokens_pct": 0.6426205129474559,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3147/8806 documents (35.7%)"
+      },
+      {
+        "word": "មួយ",
+        "count": 13489,
+        "share_of_tokens_pct": 0.6300100370047411,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4868/8806 documents (55.3%)"
+      },
+      {
+        "word": "មិន",
+        "count": 13457,
+        "share_of_tokens_pct": 0.6285154620781971,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2505/8806 documents (28.4%)"
+      },
+      {
+        "word": "ប្រទេស",
+        "count": 11472,
+        "share_of_tokens_pct": 0.535805111166016,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3898/8806 documents (44.3%)"
+      },
+      {
+        "word": "ត្រូវបាន",
+        "count": 11134,
+        "share_of_tokens_pct": 0.5200186635043952,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4203/8806 documents (47.7%)"
+      },
+      {
+        "word": "ក៏",
+        "count": 11114,
+        "share_of_tokens_pct": 0.5190845541753052,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2752/8806 documents (31.3%)"
+      },
+      {
+        "word": "ពី",
+        "count": 10913,
+        "share_of_tokens_pct": 0.5096967554179509,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4275/8806 documents (48.5%)"
+      },
+      {
+        "word": "គេ",
+        "count": 10563,
+        "share_of_tokens_pct": 0.4933498421588761,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3888/8806 documents (44.2%)"
+      },
+      {
+        "word": "នោះ",
+        "count": 10546,
+        "share_of_tokens_pct": 0.49255584922914963,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2239/8806 documents (25.4%)"
+      },
+      {
+        "word": "នៅក្នុង",
+        "count": 9582,
+        "share_of_tokens_pct": 0.4475317795670123,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4057/8806 documents (46.1%)"
+      },
+      {
+        "word": "គឺ",
+        "count": 9217,
+        "share_of_tokens_pct": 0.43048428431112007,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3474/8806 documents (39.5%)"
+      },
+      {
+        "word": "ទី",
+        "count": 8305,
+        "share_of_tokens_pct": 0.3878888989046167,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3089/8806 documents (35.1%)"
+      },
+      {
+        "word": "គឺជា",
+        "count": 8059,
+        "share_of_tokens_pct": 0.37639935415680986,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5152/8806 documents (58.5%)"
+      },
+      {
+        "word": "ឬ",
+        "count": 7917,
+        "share_of_tokens_pct": 0.369767177920271,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3114/8806 documents (35.4%)"
+      },
+      {
+        "word": "លោក",
+        "count": 7884,
+        "share_of_tokens_pct": 0.36822589752727247,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2038/8806 documents (23.1%)"
+      },
+      {
+        "word": "នឹង",
+        "count": 7706,
+        "share_of_tokens_pct": 0.3599123244983716,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2489/8806 documents (28.3%)"
+      }
+    ]
+  },
+  "C-freq: top 200 DF": {
+    "tokens": 2141077,
+    "removed": 1003017,
+    "removed_pct": 46.84637684679252,
+    "types_removed_observed": 200,
+    "types_in_strategy": 200,
+    "top_removed": [
+      {
+        "word": "ជា",
+        "count": 38742,
+        "share_of_tokens_pct": 1.809463181380212,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 7330/8806 documents (83.2%)"
+      },
+      {
+        "word": "ដែល",
+        "count": 37663,
+        "share_of_tokens_pct": 1.7590679830758071,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 7125/8806 documents (80.9%)"
+      },
+      {
+        "word": "មាន",
+        "count": 37514,
+        "share_of_tokens_pct": 1.7521088685740869,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 6712/8806 documents (76.2%)"
+      },
+      {
+        "word": "បាន",
+        "count": 36021,
+        "share_of_tokens_pct": 1.6823776071575194,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5786/8806 documents (65.7%)"
+      },
+      {
+        "word": "និង",
+        "count": 33910,
+        "share_of_tokens_pct": 1.5837823674720712,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 7144/8806 documents (81.1%)"
+      },
+      {
+        "word": "នៅ",
+        "count": 27931,
+        "share_of_tokens_pct": 1.30453038354062,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 6381/8806 documents (72.5%)"
+      },
+      {
+        "word": "ក្នុង",
+        "count": 24374,
+        "share_of_tokens_pct": 1.138399039361966,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5782/8806 documents (65.7%)"
+      },
+      {
+        "word": "របស់",
+        "count": 21589,
+        "share_of_tokens_pct": 1.0083243152861854,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5613/8806 documents (63.7%)"
+      },
+      {
+        "word": "នៃ",
+        "count": 20150,
+        "share_of_tokens_pct": 0.941115149058161,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5717/8806 documents (64.9%)"
+      },
+      {
+        "word": "ថា",
+        "count": 18828,
+        "share_of_tokens_pct": 0.8793705224053129,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4654/8806 documents (52.9%)"
+      },
+      {
+        "word": "នេះ",
+        "count": 18706,
+        "share_of_tokens_pct": 0.8736724554978639,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4777/8806 documents (54.2%)"
+      },
+      {
+        "word": "ឆ្នាំ",
+        "count": 18644,
+        "share_of_tokens_pct": 0.870776716577685,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4758/8806 documents (54.0%)"
+      },
+      {
+        "word": "ដោយ",
+        "count": 17135,
+        "share_of_tokens_pct": 0.8002981676978456,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4815/8806 documents (54.7%)"
+      },
+      {
+        "word": "ហើយ",
+        "count": 14446,
+        "share_of_tokens_pct": 0.6747071684016969,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3948/8806 documents (44.8%)"
+      },
+      {
+        "word": "ទៅ",
+        "count": 13759,
+        "share_of_tokens_pct": 0.6426205129474559,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3147/8806 documents (35.7%)"
+      },
+      {
+        "word": "មួយ",
+        "count": 13489,
+        "share_of_tokens_pct": 0.6300100370047411,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4868/8806 documents (55.3%)"
+      },
+      {
+        "word": "មិន",
+        "count": 13457,
+        "share_of_tokens_pct": 0.6285154620781971,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2505/8806 documents (28.4%)"
+      },
+      {
+        "word": "ប្រទេស",
+        "count": 11472,
+        "share_of_tokens_pct": 0.535805111166016,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3898/8806 documents (44.3%)"
+      },
+      {
+        "word": "ត្រូវបាន",
+        "count": 11134,
+        "share_of_tokens_pct": 0.5200186635043952,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4203/8806 documents (47.7%)"
+      },
+      {
+        "word": "ក៏",
+        "count": 11114,
+        "share_of_tokens_pct": 0.5190845541753052,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2752/8806 documents (31.3%)"
+      },
+      {
+        "word": "ពី",
+        "count": 10913,
+        "share_of_tokens_pct": 0.5096967554179509,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4275/8806 documents (48.5%)"
+      },
+      {
+        "word": "គេ",
+        "count": 10563,
+        "share_of_tokens_pct": 0.4933498421588761,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3888/8806 documents (44.2%)"
+      },
+      {
+        "word": "នោះ",
+        "count": 10546,
+        "share_of_tokens_pct": 0.49255584922914963,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2239/8806 documents (25.4%)"
+      },
+      {
+        "word": "នៅក្នុង",
+        "count": 9582,
+        "share_of_tokens_pct": 0.4475317795670123,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 4057/8806 documents (46.1%)"
+      },
+      {
+        "word": "គឺ",
+        "count": 9217,
+        "share_of_tokens_pct": 0.43048428431112007,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3474/8806 documents (39.5%)"
+      },
+      {
+        "word": "ទី",
+        "count": 8305,
+        "share_of_tokens_pct": 0.3878888989046167,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3089/8806 documents (35.1%)"
+      },
+      {
+        "word": "គឺជា",
+        "count": 8059,
+        "share_of_tokens_pct": 0.37639935415680986,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 5152/8806 documents (58.5%)"
+      },
+      {
+        "word": "ឬ",
+        "count": 7917,
+        "share_of_tokens_pct": 0.369767177920271,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 3114/8806 documents (35.4%)"
+      },
+      {
+        "word": "លោក",
+        "count": 7884,
+        "share_of_tokens_pct": 0.36822589752727247,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2038/8806 documents (23.1%)"
+      },
+      {
+        "word": "នឹង",
+        "count": 7706,
+        "share_of_tokens_pct": 0.3599123244983716,
+        "category": "",
+        "tier": "data-driven",
+        "reason": "appears in 2489/8806 documents (28.3%)"
+      }
+    ]
+  },
+  "control: random 50": {
+    "tokens": 2141077,
+    "removed": 8213,
+    "removed_pct": 0.38359199599080274,
+    "types_removed_observed": 50,
+    "types_in_strategy": 50,
+    "top_removed": [
+      {
+        "word": "លោក",
+        "count": 7884,
+        "share_of_tokens_pct": 0.36822589752727247,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "ស៊ុត",
+        "count": 115,
+        "share_of_tokens_pct": 0.00537112864226742,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "១៩៤៤",
+        "count": 55,
+        "share_of_tokens_pct": 0.0025688006549974616,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "អណ្ដាត",
+        "count": 28,
+        "share_of_tokens_pct": 0.0013077530607259805,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "សុរិយោ",
+        "count": 20,
+        "share_of_tokens_pct": 0.000934109329089986,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "ជេតពន",
+        "count": 15,
+        "share_of_tokens_pct": 0.0007005819968174895,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "តតិយ",
+        "count": 14,
+        "share_of_tokens_pct": 0.0006538765303629902,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "ឈាង",
+        "count": 11,
+        "share_of_tokens_pct": 0.0005137601309994923,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "stone",
+        "count": 8,
+        "share_of_tokens_pct": 0.0003736437316359944,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "ស៊ាំ",
+        "count": 7,
+        "share_of_tokens_pct": 0.0003269382651814951,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "កំពង់ហ្លួង",
+        "count": 5,
+        "share_of_tokens_pct": 0.0002335273322724965,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "កំរ",
+        "count": 5,
+        "share_of_tokens_pct": 0.0002335273322724965,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "(red",
+        "count": 3,
+        "share_of_tokens_pct": 0.0001401163993634979,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "វ៉ាកង",
+        "count": 3,
+        "share_of_tokens_pct": 0.0001401163993634979,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "ញ្ជូ",
+        "count": 2,
+        "share_of_tokens_pct": 9.34109329089986e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "សូធ្យធម៌",
+        "count": 2,
+        "share_of_tokens_pct": 9.34109329089986e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "d'origine",
+        "count": 2,
+        "share_of_tokens_pct": 9.34109329089986e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "ការហើយ",
+        "count": 2,
+        "share_of_tokens_pct": 9.34109329089986e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "(silly",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "whedon",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "បររទះ",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "madeira",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "(เทศบาลนคร)",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "ceballos",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "(43)",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "លោង",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "Βοόζ",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "bo'oz",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "៤៣២គី",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      },
+      {
+        "word": "balabhadra",
+        "count": 1,
+        "share_of_tokens_pct": 4.67054664544993e-05,
+        "category": "",
+        "tier": "random",
+        "reason": "random control term"
+      }
+    ]
+  }
+}

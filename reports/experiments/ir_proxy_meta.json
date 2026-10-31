@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "usable_categories": 379,
+  "eligible_articles": 2717,
+  "queries_sampled": 300,
+  "dropped_near_duplicate": 0,
+  "dropped_no_relevant": 0,
+  "queries_evaluated": 300,
+  "indexed_documents": 8506,
+  "mean_relevant_per_query": 22.85,
+  "median_relevant_per_query": 17.0
+}

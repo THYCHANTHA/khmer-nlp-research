@@ -1,0 +1,301 @@
+word,category,tier,action,reason,source,manual_review,strategy
+ជា,,data-driven,remove,appears in 7330/8806 documents (83.2%),document frequency on the indexed collection,True,B-freq: top 50 DF
+និង,,data-driven,remove,appears in 7144/8806 documents (81.1%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ដែល,,data-driven,remove,appears in 7125/8806 documents (80.9%),document frequency on the indexed collection,True,B-freq: top 50 DF
+មាន,,data-driven,remove,appears in 6712/8806 documents (76.2%),document frequency on the indexed collection,True,B-freq: top 50 DF
+នៅ,,data-driven,remove,appears in 6381/8806 documents (72.5%),document frequency on the indexed collection,True,B-freq: top 50 DF
+បាន,,data-driven,remove,appears in 5786/8806 documents (65.7%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ក្នុង,,data-driven,remove,appears in 5782/8806 documents (65.7%),document frequency on the indexed collection,True,B-freq: top 50 DF
+នៃ,,data-driven,remove,appears in 5717/8806 documents (64.9%),document frequency on the indexed collection,True,B-freq: top 50 DF
+របស់,,data-driven,remove,appears in 5613/8806 documents (63.7%),document frequency on the indexed collection,True,B-freq: top 50 DF
+គឺជា,,data-driven,remove,appears in 5152/8806 documents (58.5%),document frequency on the indexed collection,True,B-freq: top 50 DF
+មួយ,,data-driven,remove,appears in 4868/8806 documents (55.3%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ដោយ,,data-driven,remove,appears in 4815/8806 documents (54.7%),document frequency on the indexed collection,True,B-freq: top 50 DF
+នេះ,,data-driven,remove,appears in 4777/8806 documents (54.2%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ឆ្នាំ,,data-driven,remove,appears in 4758/8806 documents (54.0%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ថា,,data-driven,remove,appears in 4654/8806 documents (52.9%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ពី,,data-driven,remove,appears in 4275/8806 documents (48.5%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ត្រូវបាន,,data-driven,remove,appears in 4203/8806 documents (47.7%),document frequency on the indexed collection,True,B-freq: top 50 DF
+នៅក្នុង,,data-driven,remove,appears in 4057/8806 documents (46.1%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ហើយ,,data-driven,remove,appears in 3948/8806 documents (44.8%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ប្រទេស,,data-driven,remove,appears in 3898/8806 documents (44.3%),document frequency on the indexed collection,True,B-freq: top 50 DF
+គេ,,data-driven,remove,appears in 3888/8806 documents (44.2%),document frequency on the indexed collection,True,B-freq: top 50 DF
+គឺ,,data-driven,remove,appears in 3474/8806 documents (39.5%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ទៅ,,data-driven,remove,appears in 3147/8806 documents (35.7%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ឬ,,data-driven,remove,appears in 3114/8806 documents (35.4%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ទី,,data-driven,remove,appears in 3089/8806 documents (35.1%),document frequency on the indexed collection,True,B-freq: top 50 DF
+វា,,data-driven,remove,appears in 2854/8806 documents (32.4%),document frequency on the indexed collection,True,B-freq: top 50 DF
+តាម,,data-driven,remove,appears in 2812/8806 documents (31.9%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ៗ,,data-driven,remove,appears in 2758/8806 documents (31.3%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ក៏,,data-driven,remove,appears in 2752/8806 documents (31.3%),document frequency on the indexed collection,True,B-freq: top 50 DF
+មិន,,data-driven,remove,appears in 2505/8806 documents (28.4%),document frequency on the indexed collection,True,B-freq: top 50 DF
+នឹង,,data-driven,remove,appears in 2489/8806 documents (28.3%),document frequency on the indexed collection,True,B-freq: top 50 DF
+លើ,,data-driven,remove,appears in 2449/8806 documents (27.8%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ដល់,,data-driven,remove,appears in 2381/8806 documents (27.0%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ទៀត,,data-driven,remove,appears in 2370/8806 documents (26.9%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ត្រូវ,,data-driven,remove,appears in 2342/8806 documents (26.6%),document frequency on the indexed collection,True,B-freq: top 50 DF
+នោះ,,data-driven,remove,appears in 2239/8806 documents (25.4%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ភាគ,,data-driven,remove,appears in 2224/8806 documents (25.3%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ស្ថិត,,data-driven,remove,appears in 2172/8806 documents (24.7%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ខេត្ត,,data-driven,remove,appears in 2164/8806 documents (24.6%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ដ៏,,data-driven,remove,appears in 2143/8806 documents (24.3%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ឈ្មោះ,,data-driven,remove,appears in 2129/8806 documents (24.2%),document frequency on the indexed collection,True,B-freq: top 50 DF
+សម្រាប់,,data-driven,remove,appears in 2103/8806 documents (23.9%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ច្រើន,,data-driven,remove,appears in 2069/8806 documents (23.5%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ពេល,,data-driven,remove,appears in 2061/8806 documents (23.4%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ទាំង,,data-driven,remove,appears in 2054/8806 documents (23.3%),document frequency on the indexed collection,True,B-freq: top 50 DF
+លោក,,data-driven,remove,appears in 2038/8806 documents (23.1%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ធំ,,data-driven,remove,appears in 2032/8806 documents (23.1%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ចំនួន,,data-driven,remove,appears in 2013/8806 documents (22.9%),document frequency on the indexed collection,True,B-freq: top 50 DF
+អ្នក,,data-driven,remove,appears in 1989/8806 documents (22.6%),document frequency on the indexed collection,True,B-freq: top 50 DF
+មក,,data-driven,remove,appears in 1983/8806 documents (22.5%),document frequency on the indexed collection,True,B-freq: top 50 DF
+ជា,,data-driven,remove,appears in 7330/8806 documents (83.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+និង,,data-driven,remove,appears in 7144/8806 documents (81.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដែល,,data-driven,remove,appears in 7125/8806 documents (80.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+មាន,,data-driven,remove,appears in 6712/8806 documents (76.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នៅ,,data-driven,remove,appears in 6381/8806 documents (72.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បាន,,data-driven,remove,appears in 5786/8806 documents (65.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ក្នុង,,data-driven,remove,appears in 5782/8806 documents (65.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នៃ,,data-driven,remove,appears in 5717/8806 documents (64.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+របស់,,data-driven,remove,appears in 5613/8806 documents (63.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គឺជា,,data-driven,remove,appears in 5152/8806 documents (58.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+មួយ,,data-driven,remove,appears in 4868/8806 documents (55.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដោយ,,data-driven,remove,appears in 4815/8806 documents (54.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នេះ,,data-driven,remove,appears in 4777/8806 documents (54.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឆ្នាំ,,data-driven,remove,appears in 4758/8806 documents (54.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ថា,,data-driven,remove,appears in 4654/8806 documents (52.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ពី,,data-driven,remove,appears in 4275/8806 documents (48.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ត្រូវបាន,,data-driven,remove,appears in 4203/8806 documents (47.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នៅក្នុង,,data-driven,remove,appears in 4057/8806 documents (46.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ហើយ,,data-driven,remove,appears in 3948/8806 documents (44.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ប្រទេស,,data-driven,remove,appears in 3898/8806 documents (44.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គេ,,data-driven,remove,appears in 3888/8806 documents (44.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គឺ,,data-driven,remove,appears in 3474/8806 documents (39.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទៅ,,data-driven,remove,appears in 3147/8806 documents (35.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឬ,,data-driven,remove,appears in 3114/8806 documents (35.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទី,,data-driven,remove,appears in 3089/8806 documents (35.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+វា,,data-driven,remove,appears in 2854/8806 documents (32.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+តាម,,data-driven,remove,appears in 2812/8806 documents (31.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ៗ,,data-driven,remove,appears in 2758/8806 documents (31.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ក៏,,data-driven,remove,appears in 2752/8806 documents (31.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+មិន,,data-driven,remove,appears in 2505/8806 documents (28.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នឹង,,data-driven,remove,appears in 2489/8806 documents (28.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+លើ,,data-driven,remove,appears in 2449/8806 documents (27.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដល់,,data-driven,remove,appears in 2381/8806 documents (27.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទៀត,,data-driven,remove,appears in 2370/8806 documents (26.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ត្រូវ,,data-driven,remove,appears in 2342/8806 documents (26.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នោះ,,data-driven,remove,appears in 2239/8806 documents (25.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ភាគ,,data-driven,remove,appears in 2224/8806 documents (25.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ស្ថិត,,data-driven,remove,appears in 2172/8806 documents (24.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខេត្ត,,data-driven,remove,appears in 2164/8806 documents (24.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដ៏,,data-driven,remove,appears in 2143/8806 documents (24.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឈ្មោះ,,data-driven,remove,appears in 2129/8806 documents (24.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+សម្រាប់,,data-driven,remove,appears in 2103/8806 documents (23.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ច្រើន,,data-driven,remove,appears in 2069/8806 documents (23.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ពេល,,data-driven,remove,appears in 2061/8806 documents (23.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទាំង,,data-driven,remove,appears in 2054/8806 documents (23.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+លោក,,data-driven,remove,appears in 2038/8806 documents (23.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ធំ,,data-driven,remove,appears in 2032/8806 documents (23.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ចំនួន,,data-driven,remove,appears in 2013/8806 documents (22.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+អ្នក,,data-driven,remove,appears in 1989/8806 documents (22.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+មក,,data-driven,remove,appears in 1983/8806 documents (22.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដើម្បី,,data-driven,remove,appears in 1961/8806 documents (22.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ធ្វើ,,data-driven,remove,appears in 1935/8806 documents (22.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ពីរ,,data-driven,remove,appears in 1930/8806 documents (21.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខ្លួន,,data-driven,remove,appears in 1909/8806 documents (21.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+តែ,,data-driven,remove,appears in 1887/8806 documents (21.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ជាង,,data-driven,remove,appears in 1858/8806 documents (21.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ស្រុក,,data-driven,remove,appears in 1817/8806 documents (20.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ជាមួយ,,data-driven,remove,appears in 1814/8806 documents (20.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គ្នា,,data-driven,remove,appears in 1813/8806 documents (20.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឡើង,,data-driven,remove,appears in 1786/8806 documents (20.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+យ៉ាង,,data-driven,remove,appears in 1753/8806 documents (19.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+អាច,,data-driven,remove,appears in 1743/8806 documents (19.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ថ្ងៃទី,,data-driven,remove,appears in 1686/8806 documents (19.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បំផុត,,data-driven,remove,appears in 1677/8806 documents (19.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ផ្សេង,,data-driven,remove,appears in 1670/8806 documents (19.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ការ,,data-driven,remove,appears in 1658/8806 documents (18.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទីក្រុង,,data-driven,remove,appears in 1658/8806 documents (18.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+តំបន់,,data-driven,remove,appears in 1643/8806 documents (18.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ហៅ,,data-driven,remove,appears in 1626/8806 documents (18.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដូចជា,,data-driven,remove,appears in 1615/8806 documents (18.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ជាច្រើន,,data-driven,remove,appears in 1582/8806 documents (18.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ភាសា,,data-driven,remove,appears in 1556/8806 documents (17.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+អង់គ្លេស,,data-driven,remove,appears in 1550/8806 documents (17.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខ្មែរ,,data-driven,remove,appears in 1541/8806 documents (17.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដំបូង,,data-driven,remove,appears in 1522/8806 documents (17.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+កម្ពុជា,,data-driven,remove,appears in 1521/8806 documents (17.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+កើត,,data-driven,remove,appears in 1497/8806 documents (17.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ក្រុម,,data-driven,remove,appears in 1484/8806 documents (16.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ផងដែរ,,data-driven,remove,appears in 1460/8806 documents (16.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ថ្ងៃ,,data-driven,remove,appears in 1445/8806 documents (16.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+លើក,,data-driven,remove,appears in 1436/8806 documents (16.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ជាតិ,,data-driven,remove,appears in 1432/8806 documents (16.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដើម,,data-driven,remove,appears in 1431/8806 documents (16.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+រួម,,data-driven,remove,appears in 1426/8806 documents (16.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទេ,,data-driven,remove,appears in 1384/8806 documents (15.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ផ្នែក,,data-driven,remove,appears in 1377/8806 documents (15.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ស្គាល់,,data-driven,remove,appears in 1371/8806 documents (15.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ប្រជាជន,,data-driven,remove,appears in 1353/8806 documents (15.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+មនុស្ស,,data-driven,remove,appears in 1298/8806 documents (14.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បង្កើត,,data-driven,remove,appears in 1295/8806 documents (14.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នៅលើ,,data-driven,remove,appears in 1288/8806 documents (14.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នូវ,,data-driven,remove,appears in 1275/8806 documents (14.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ចូល,,data-driven,remove,appears in 1260/8806 documents (14.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ចេញ,,data-driven,remove,appears in 1249/8806 documents (14.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+សម័យ,,data-driven,remove,appears in 1236/8806 documents (14.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+សំខាន់,,data-driven,remove,appears in 1231/8806 documents (14.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខាងត្បូង,,data-driven,remove,appears in 1225/8806 documents (13.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឱ្យ,,data-driven,remove,appears in 1222/8806 documents (13.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នាក់,,data-driven,remove,appears in 1207/8806 documents (13.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+រាជ,,data-driven,remove,appears in 1192/8806 documents (13.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ជនជាតិ,,data-driven,remove,appears in 1189/8806 documents (13.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ប្រើ,,data-driven,remove,appears in 1180/8806 documents (13.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ប៉ុន្តែ,,data-driven,remove,appears in 1178/8806 documents (13.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គាត់,,data-driven,remove,appears in 1175/8806 documents (13.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បី,,data-driven,remove,appears in 1164/8806 documents (13.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បច្ចុប្បន្ន,,data-driven,remove,appears in 1154/8806 documents (13.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដែរ,,data-driven,remove,appears in 1129/8806 documents (12.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដូច,,data-driven,remove,appears in 1128/8806 documents (12.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+យក,,data-driven,remove,appears in 1124/8806 documents (12.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+វិញ,,data-driven,remove,appears in 1115/8806 documents (12.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បន្ទាប់ពី,,data-driven,remove,appears in 1113/8806 documents (12.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ភូមិ,,data-driven,remove,appears in 1111/8806 documents (12.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ក្រោម,,data-driven,remove,appears in 1107/8806 documents (12.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទីតាំង,,data-driven,remove,appears in 1107/8806 documents (12.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខាងជើង,,data-driven,remove,appears in 1104/8806 documents (12.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+មុន,,data-driven,remove,appears in 1092/8806 documents (12.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ពួកគេ,,data-driven,remove,appears in 1078/8806 documents (12.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ថ្មី,,data-driven,remove,appears in 1071/8806 documents (12.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+សាសនា,,data-driven,remove,appears in 1070/8806 documents (12.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ក្រុង,,data-driven,remove,appears in 1067/8806 documents (12.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ថៃ,,data-driven,remove,appears in 1046/8806 documents (11.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ជាប់,,data-driven,remove,appears in 1045/8806 documents (11.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+អំពី,,data-driven,remove,appears in 1003/8806 documents (11.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទឹក,,data-driven,remove,appears in 1002/8806 documents (11.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដាក់,,data-driven,remove,appears in 977/8806 documents (11.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+រដ្ឋ,,data-driven,remove,appears in 962/8806 documents (10.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ព្រះបាទ,,data-driven,remove,appears in 958/8806 documents (10.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+រស់,,data-driven,remove,appears in 957/8806 documents (10.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ម្នាក់,,data-driven,remove,appears in 955/8806 documents (10.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ស,,data-driven,remove,appears in 953/8806 documents (10.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខាង,,data-driven,remove,appears in 949/8806 documents (10.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+កន្លែង,,data-driven,remove,appears in 943/8806 documents (10.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បង្ហាញ,,data-driven,remove,appears in 943/8806 documents (10.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ក្លាយជា,,data-driven,remove,appears in 936/8806 documents (10.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+តូច,,data-driven,remove,appears in 930/8806 documents (10.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ចំណោម,,data-driven,remove,appears in 928/8806 documents (10.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ផ្លូវ,,data-driven,remove,appears in 926/8806 documents (10.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឃុំ,,data-driven,remove,appears in 922/8806 documents (10.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បង្កើតឡើង,,data-driven,remove,appears in 919/8806 documents (10.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទាំងអស់,,data-driven,remove,appears in 917/8806 documents (10.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ជាមួយនឹង,,data-driven,remove,appears in 905/8806 documents (10.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទទួល,,data-driven,remove,appears in 905/8806 documents (10.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ពួក,,data-driven,remove,appears in 902/8806 documents (10.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+កណ្តាល,,data-driven,remove,appears in 898/8806 documents (10.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឃើញ,,data-driven,remove,appears in 894/8806 documents (10.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ពិភពលោក,,data-driven,remove,appears in 894/8806 documents (10.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឲ្យ,,data-driven,remove,appears in 892/8806 documents (10.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+រហូតដល់,,data-driven,remove,appears in 886/8806 documents (10.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+រូប,,data-driven,remove,appears in 882/8806 documents (10.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ក្រោយ,,data-driven,remove,appears in 879/8806 documents (10.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខាងលិច,,data-driven,remove,appears in 879/8806 documents (10.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខ្ពស់,,data-driven,remove,appears in 879/8806 documents (10.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ល្អ,,data-driven,remove,appears in 877/8806 documents (10.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខាងកើត,,data-driven,remove,appears in 868/8806 documents (9.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ដី,,data-driven,remove,appears in 865/8806 documents (9.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+រវាង,,data-driven,remove,appears in 861/8806 documents (9.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បើ,,data-driven,remove,appears in 856/8806 documents (9.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ពាក្យ,,data-driven,remove,appears in 840/8806 documents (9.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+និយាយ,,data-driven,remove,appears in 837/8806 documents (9.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ណា,,data-driven,remove,appears in 835/8806 documents (9.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បុរាណ,,data-driven,remove,appears in 834/8806 documents (9.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ភ្នំ,,data-driven,remove,appears in 834/8806 documents (9.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ឡើយ,,data-driven,remove,appears in 831/8806 documents (9.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ប្រហែល,,data-driven,remove,appears in 827/8806 documents (9.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+លេខ,,data-driven,remove,appears in 825/8806 documents (9.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ចិន,,data-driven,remove,appears in 822/8806 documents (9.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ប្រាសាទ,,data-driven,remove,appears in 816/8806 documents (9.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បន្ត,,data-driven,remove,appears in 814/8806 documents (9.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គ្រប់,,data-driven,remove,appears in 803/8806 documents (9.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+រឿង,,data-driven,remove,appears in 799/8806 documents (9.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ចំពោះ,,data-driven,remove,appears in 798/8806 documents (9.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+អង្គ,,data-driven,remove,appears in 798/8806 documents (9.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+លេង,,data-driven,remove,appears in 791/8806 documents (9.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខ្លះ,,data-driven,remove,appears in 790/8806 documents (9.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គិត,,data-driven,remove,appears in 778/8806 documents (8.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ទ្រង់,,data-driven,remove,appears in 777/8806 documents (8.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+មុខ,,data-driven,remove,appears in 771/8806 documents (8.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+យើង,,data-driven,remove,appears in 770/8806 documents (8.7%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ព្រះអង្គ,,data-driven,remove,appears in 758/8806 documents (8.6%),document frequency on the indexed collection,True,C-freq: top 200 DF
+មកពី,,data-driven,remove,appears in 746/8806 documents (8.5%),document frequency on the indexed collection,True,C-freq: top 200 DF
+អស់,,data-driven,remove,appears in 738/8806 documents (8.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ស្រី,,data-driven,remove,appears in 736/8806 documents (8.4%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខ្លាំង,,data-driven,remove,appears in 734/8806 documents (8.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គ្រប់គ្រង,,data-driven,remove,appears in 734/8806 documents (8.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+បារាំង,,data-driven,remove,appears in 734/8806 documents (8.3%),document frequency on the indexed collection,True,C-freq: top 200 DF
+សមាជិក,,data-driven,remove,appears in 722/8806 documents (8.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ព្រៃ,,data-driven,remove,appears in 719/8806 documents (8.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ចុង,,data-driven,remove,appears in 718/8806 documents (8.2%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ចុះ,,data-driven,remove,appears in 713/8806 documents (8.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+សព្វ,,data-driven,remove,appears in 710/8806 documents (8.1%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ក,,data-driven,remove,appears in 707/8806 documents (8.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+នា,,data-driven,remove,appears in 706/8806 documents (8.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ព្រះ,,data-driven,remove,appears in 705/8806 documents (8.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+កំណត់,,data-driven,remove,appears in 704/8806 documents (8.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ខែ,,data-driven,remove,appears in 702/8806 documents (8.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+សតវត្ស,,data-driven,remove,appears in 701/8806 documents (8.0%),document frequency on the indexed collection,True,C-freq: top 200 DF
+កំពុង,,data-driven,remove,appears in 700/8806 documents (7.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+គ្មាន,,data-driven,remove,appears in 694/8806 documents (7.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+លក្ខណៈ,,data-driven,remove,appears in 693/8806 documents (7.9%),document frequency on the indexed collection,True,C-freq: top 200 DF
+ប្រព័ន្ធ,,data-driven,remove,appears in 690/8806 documents (7.8%),document frequency on the indexed collection,True,C-freq: top 200 DF
+អណ្ដាត,,random,remove,random control term,seed 42,True,control: random 50
+d'origine,,random,remove,random control term,seed 42,True,control: random 50
+(red,,random,remove,random control term,seed 42,True,control: random 50
+កោងកាច,,random,remove,random control term,seed 42,True,control: random 50
+កាកុងហ្គោ,,random,remove,random control term,seed 42,True,control: random 50
+Βοόζ,,random,remove,random control term,seed 42,True,control: random 50
+internationale),,random,remove,random control term,seed 42,True,control: random 50
+ceballos,,random,remove,random control term,seed 42,True,control: random 50
+ឧត្តមរវល់,,random,remove,random control term,seed 42,True,control: random 50
+លោង,,random,remove,random control term,seed 42,True,control: random 50
+amass),,random,remove,random control term,seed 42,True,control: random 50
+សូធ្យធម៌,,random,remove,random control term,seed 42,True,control: random 50
+បាគិស្ថាន,,random,remove,random control term,seed 42,True,control: random 50
+(เทศบาลนคร),,random,remove,random control term,seed 42,True,control: random 50
+(warren,,random,remove,random control term,seed 42,True,control: random 50
+batonianum,,random,remove,random control term,seed 42,True,control: random 50
+"york),",,random,remove,random control term,seed 42,True,control: random 50
+พระแม่คยาตรี),,random,remove,random control term,seed 42,True,control: random 50
+មោក្សៈ,,random,remove,random control term,seed 42,True,control: random 50
+ស៊ាំ,,random,remove,random control term,seed 42,True,control: random 50
+(silly,,random,remove,random control term,seed 42,True,control: random 50
+វ៉ាកង,,random,remove,random control term,seed 42,True,control: random 50
+stone,,random,remove,random control term,seed 42,True,control: random 50
+៤៣២គី,,random,remove,random control term,seed 42,True,control: random 50
+អស្វត្ថាម,,random,remove,random control term,seed 42,True,control: random 50
+១៩៤៤,,random,remove,random control term,seed 42,True,control: random 50
+លោក,,random,remove,random control term,seed 42,True,control: random 50
+បររទះ,,random,remove,random control term,seed 42,True,control: random 50
+{g},,random,remove,random control term,seed 42,True,control: random 50
+ប្រេសនីយ៍,,random,remove,random control term,seed 42,True,control: random 50
+សុរិយោ,,random,remove,random control term,seed 42,True,control: random 50
+កំរ,,random,remove,random control term,seed 42,True,control: random 50
+(43),,random,remove,random control term,seed 42,True,control: random 50
+merrygoround,,random,remove,random control term,seed 42,True,control: random 50
+១៧២២),,random,remove,random control term,seed 42,True,control: random 50
+បាតង់,,random,remove,random control term,seed 42,True,control: random 50
+ឈាង,,random,remove,random control term,seed 42,True,control: random 50
+កំពង់ហ្លួង,,random,remove,random control term,seed 42,True,control: random 50
+madeira,,random,remove,random control term,seed 42,True,control: random 50
+whedon,,random,remove,random control term,seed 42,True,control: random 50
+ជេតពន,,random,remove,random control term,seed 42,True,control: random 50
+caused,,random,remove,random control term,seed 42,True,control: random 50
+balabhadra,,random,remove,random control term,seed 42,True,control: random 50
+ទាំងអភព្វ,,random,remove,random control term,seed 42,True,control: random 50
+bo'oz,,random,remove,random control term,seed 42,True,control: random 50
+តតិយ,,random,remove,random control term,seed 42,True,control: random 50
+ញ្ជូ,,random,remove,random control term,seed 42,True,control: random 50
+ស៊ុត,,random,remove,random control term,seed 42,True,control: random 50
+ការហើយ,,random,remove,random control term,seed 42,True,control: random 50
+10.10:,,random,remove,random control term,seed 42,True,control: random 50

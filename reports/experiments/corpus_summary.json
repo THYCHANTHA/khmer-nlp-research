@@ -1,0 +1,50 @@
+{
+  "filter_report": {
+    "input": 14701,
+    "too_short": 5660,
+    "not_khmer": 235,
+    "few_tokens": 0,
+    "kept": 8806
+  },
+  "tokenizer": "khmer-nltk",
+  "tokenizer_version": "1.6",
+  "python": "3.12.5",
+  "articles": 8806,
+  "tokens": 2141077,
+  "articles_with_topical_category": 3698,
+  "distinct_topical_categories": 2943,
+  "median_tokens_per_article": 118.0,
+  "revision_ids_recorded": 8806,
+  "versions": {
+    "khmer-nltk": "1.6",
+    "scikit-learn": "1.7.2",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0"
+  },
+  "download": {
+    "retrieved_utc": "2026-10-31T15:37:51+00:00",
+    "api": "https://km.wikipedia.org/w/api.php",
+    "rights": {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.km",
+      "text": "Creative Commons Attribution-Share Alike 4.0"
+    },
+    "site_statistics": {
+      "pages": 38352,
+      "articles": 12934,
+      "edits": 341920,
+      "images": 805,
+      "users": 52902,
+      "activeusers": 110,
+      "admins": 2,
+      "jobs": 0,
+      "cirrussearch-article-words": 9589715,
+      "queued-massmessages": 0
+    },
+    "article_ids_listed": 14701,
+    "already_present": 0,
+    "fetched_now": 14701,
+    "note": "file de-duplicated by pageid after two overlapping download processes appended the same records; first record kept",
+    "manifest_rows": 14701
+  }
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. Please also credit the earlier ITC collaborative project that informed it."
+title: "Khmer NLP Research: independent implementation of stop-word strategies, TF-IDF analysis and exploratory retrieval"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Chantha
+    given-names: Thy
+repository-code: "https://github.com/THYCHANTHA/khmer-nlp-research"
+keywords:
+  - Khmer
+  - natural language processing
+  - stop words
+  - TF-IDF
+  - information retrieval
+references:
+  - type: software
+    title: "Stop_word_Project (earlier collaborative ITC project that informed this work; no licence declared; not reused)"
+    url: "https://github.com/Nagamiji/Stop_word_Project"
