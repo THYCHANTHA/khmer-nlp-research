@@ -1,6 +1,7 @@
 """Publication-gate checks on the working tree (everything that is not git-ignored or generated locally)."""
 
 import re
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -9,8 +10,21 @@ TEXT_SUFFIXES = {".py", ".md", ".yaml", ".yml", ".toml", ".txt", ".cff", ".json"
 
 
 def tracked_files():
+    """Files git tracks; without git (e.g. a source archive), the working tree minus generated folders."""
+    try:
+        out = subprocess.run(
+            ["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=True, encoding="utf-8"
+        ).stdout.splitlines()
+        for name in out:
+            p = ROOT / name
+            if p.is_file():
+                yield p
+        return
+    except (OSError, subprocess.CalledProcessError):
+        pass
     for p in ROOT.rglob("*"):
-        if not p.is_file() or set(p.relative_to(ROOT).parts[:-1]) & SKIP_DIRS:
+        parts = p.relative_to(ROOT).parts[:-1]
+        if not p.is_file() or set(parts) & SKIP_DIRS or any(x.startswith(".venv") for x in parts):
             continue
         if p.suffix == ".log" or p.name == "_upload.csv":
             continue
