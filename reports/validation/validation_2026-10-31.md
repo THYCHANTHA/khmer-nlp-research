@@ -30,3 +30,19 @@ The runs above are accurate for `ruff`, `pip check` and `pytest`, but **the repr
 `khmer_nlp` package importable, so the documented script commands failed with `ModuleNotFoundError`. This is fixed by documenting
 `pip install -e . --no-deps` (README, `docs/methodology.md`, `data/README.md`). The re-check below was run after that fix, without
 `PYTHONPATH`; its result is recorded in the next section.
+
+## Re-check after the install fix (fresh clone of commit `de7dbdf`, no `PYTHONPATH`)
+
+Environment: a new virtual environment that **reuses the system site-packages** (so it is not fully clean and `pip check` reports
+unrelated packages that are not project dependencies), then exactly the documented steps: `pip install -r requirements.txt` and
+`pip install -e . --no-deps`. A first attempt failed 6 tests because I had skipped `requirements.txt` in that environment
+(`khmer-nltk` was not installed); that was a mistake in the check, not in the project, and it was redone with the documented steps.
+
+| Check | Result |
+|---|---|
+| `scripts/download_wikipedia.py`, `run_experiments.py`, `render_figures.py`, `check_tokenizer_versions.py` with `--help` | all exit 0 |
+| `pytest` | 69 passed, exit 0 |
+| `ruff check .` | All checks passed, exit 0 |
+| `python scripts/run_experiments.py --retokenize` on the same downloaded data | exit 0, 275 s; **every result file identical** to the committed one (`git diff` empty) |
+
+Still not verified: GitHub Actions (never run), Python 3.11, mobile width, linguist review.
