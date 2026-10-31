@@ -21,6 +21,8 @@ Nothing in this folder is third-party text, except where stated.
 
 ## Reproduce
 
+First follow the install steps in the top-level README (`pip install -r requirements.txt` and `pip install -e . --no-deps`).
+
 ```
 python scripts/download_wikipedia.py      # about 15 minutes, resumable, polite rate limit
 python scripts/run_experiments.py --retokenize

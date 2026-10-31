@@ -22,3 +22,11 @@ scikit-learn 1.9.1, numpy 2.5.4, pandas 3.1.0, scipy 1.18.1. Results did not cha
 * The live download was not repeated in the fresh clone (Wikipedia content changes over time; revision ids are in `data/manifest`).
 * The Streamlit app was checked with `streamlit.testing` (all 8 pages) and with headless-Edge screenshots at desktop width only; mobile width and other browsers were not checked.
 * No Khmer linguist has reviewed any text or label in this repository.
+
+## Correction added before publication (found by the publication-readiness audit)
+
+The runs above are accurate for `ruff`, `pip check` and `pytest`, but **the reproduction run set `PYTHONPATH=src`** when calling
+`scripts/run_experiments.py`. The install steps documented at the time (`pip install -r requirements.txt` only) did not make the
+`khmer_nlp` package importable, so the documented script commands failed with `ModuleNotFoundError`. This is fixed by documenting
+`pip install -e . --no-deps` (README, `docs/methodology.md`, `data/README.md`). The re-check below was run after that fix, without
+`PYTHONPATH`; its result is recorded in the next section.

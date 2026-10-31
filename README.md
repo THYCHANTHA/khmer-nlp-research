@@ -115,6 +115,7 @@ imported dictionary, category contribution and protected words kept.
 ```
 python -m venv .venv && .venv\Scripts\activate
 pip install -r requirements.txt
+pip install -e . --no-deps                      # makes the khmer_nlp package importable by the scripts
 python scripts/download_wikipedia.py            # about 15 min, resumable
 python scripts/run_experiments.py --retokenize  # about 5 min
 python scripts/render_figures.py                # optional, needs Microsoft Edge

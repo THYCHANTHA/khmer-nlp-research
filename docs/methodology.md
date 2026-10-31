@@ -99,6 +99,7 @@ assigns linguistic labels. High mutual information marks a candidate for manual 
 
 ```
 pip install -r requirements.txt
+pip install -e . --no-deps                      # makes the khmer_nlp package importable by the scripts
 python scripts/download_wikipedia.py            # resumable; ~13k articles
 python scripts/run_experiments.py --retokenize  # writes reports/experiments/*.csv|json
 python scripts/render_figures.py                # static PNGs (needs Microsoft Edge)
