@@ -23,8 +23,7 @@ Labels that contain "phrase" or "content word" are treated as non-function categ
 
 Tier 1 = particles, prepositions, conjunctions; tier 2 = pronouns, determiners; protected = negations and discourse markers,
 is the working hypothesis taken from the stated aims of the earlier ITC project. In this repository it is a **configuration
-to be tested**, not a result. The audit of that project found that its own exported evidence did not demonstrate a retrieval
-benefit for any category (see `docs/upstream_audit.md`).
+to be tested**, not a result. No evidence is claimed here for or against any tier.
 
 ## Decision table
 

@@ -4,7 +4,7 @@ Ordered by how much they would strengthen the research.
 
 1. **Permission and a validated dictionary.** Obtain written permission (and the corpus source) from the original ITC team, or
    build/obtain an openly licensed Khmer stop-word resource. Then run the tier strategies B and C
-   (`scripts/run_experiments.py --dictionary …`) and resolve the audited problems first: duplicates, conflicting labels,
+   (`scripts/run_experiments.py --dictionary …`) and resolve data-quality issues first: duplicates, conflicting labels,
    phrase and content-word entries. Record the permission scope in `docs/team_contributions.md`.
 2. **Human-judged relevance.** Build a small query set with independent relevance judgements (two annotators, agreement
    reported), so that RQ3 can move from "exploratory, proxy labels" to an evaluation.

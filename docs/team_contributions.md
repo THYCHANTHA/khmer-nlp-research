@@ -5,7 +5,7 @@ Institute of Technology of Cambodia (ITC): <https://github.com/Nagamiji/Stop_wor
 continuation of that project. It contains none of that project's code, dictionaries, corpus, tables or exported results.
 Permission to reuse the team's materials has **not** been obtained (status as of 2026-10-31).
 
-## The original project (from its public Git history, audited 2026-10-31)
+## The original project (from its public Git history, reviewed 2026-10-31)
 
 Only what the commit history shows is listed. The history does not state roles; the project README names four anonymous phases
 ("Person 1" to "Person 4") without naming anyone.
@@ -30,14 +30,6 @@ The upstream Git history identifies eight commits from this author's accounts th
 These commits are evidence of contributions to the **implementation, experimentation and documentation** of the project. They
 do **not** establish that this author was the sole author of any component, that they created the dictionary or the corpus, or
 that they held a formal leadership role. Specific sections are not assigned exclusively to anyone here.
-
-## Corrections made in this project to claims found in the audited material
-
-* The dictionary is not "511 unique words": the broad-class file has 510 entries (511 lines with the header); the master file
-  has 770 rows, 726 unique normalised entries and 44 duplicates, with 22 terms carrying conflicting labels.
-* This repository does **not** state that the retrieval benefit was "mathematically proven"; the recorded results do not show a benefit.
-* This repository does **not** state that Particles were the most frequent category: the team's own export reports 2.5 %,
-  below Prepositions (6.8 %) and Conjunctions (6.2 %).
 
 ## Separate work
 

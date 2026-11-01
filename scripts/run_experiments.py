@@ -21,13 +21,24 @@ import pandas as pd
 import yaml
 
 from khmer_nlp import experiments as ex
-from khmer_nlp.data.corpus import load_records, load_tokens, prepare, save_tokens
+from khmer_nlp.data.corpus import (
+    EXCLUSION_REASONS,
+    analysis_manifest_rows,
+    file_sha256,
+    load_records,
+    load_tokens,
+    prepare,
+    sample_checksum,
+    save_tokens,
+    write_analysis_manifest,
+)
 from khmer_nlp.tokenization.tokenizers import get_tokenizer
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw" / "km_wikipedia_leads.jsonl"
 CACHE = ROOT / "data" / "processed" / "km_wikipedia_tokens.json.gz"
 OUT = ROOT / "reports" / "experiments"
+MANIFEST = ROOT / "data" / "manifest" / "km_wikipedia_analysis_sample.csv"
 
 
 def main() -> None:
@@ -73,6 +84,34 @@ def main() -> None:
         "revision_ids_recorded": sum(1 for a in arts if a.revid),
         "versions": {p: metadata.version(p) for p in ("khmer-nltk", "scikit-learn", "numpy", "pandas", "scipy")},
     }
+    if RAW.exists():
+        c = cfg["corpus"]
+        rows = analysis_manifest_rows(
+            load_records(RAW),
+            {a.pageid: a for a in arts},
+            min_chars=c["min_chars"],
+            min_khmer_ratio=c["min_khmer_ratio"],
+            min_tokens=c["min_tokens"],
+        )
+        write_analysis_manifest(rows, MANIFEST)
+        by_reason = {k: sum(1 for r in rows if r["exclusion_reason"] == k) for k in EXCLUSION_REASONS}
+        corpus["analysis_sample"] = {
+            "selection_method": (
+                "all non-redirect main-namespace articles listed by the API; no sampling; filters applied in order"
+            ),
+            "filters": {
+                "min_chars": c["min_chars"],
+                "min_khmer_ratio": c["min_khmer_ratio"],
+                "min_tokens": c["min_tokens"],
+            },
+            "articles_downloaded": len(rows),
+            "included": sum(1 for r in rows if r["status"] == "included"),
+            "excluded_by_reason": by_reason,
+            "sample_sha256": sample_checksum(rows),
+            "raw_leads_sha256": file_sha256(RAW),
+            "raw_leads_sha256_note": "hash of the exact file analysed; articles change, so a re-download differs",
+            "manifest": str(MANIFEST.relative_to(ROOT)).replace("\\", "/"),
+        }
     raw_summary = RAW.parent / "download_summary.json"
     if raw_summary.exists():
         corpus["download"] = json.loads(raw_summary.read_text(encoding="utf-8"))

@@ -41,17 +41,6 @@ h1, h2, h3 { color: #12294d; letter-spacing: -0.01em; }
 </style>
 """
 
-# Verified facts about the ORIGINAL team's files, from the audit in docs/upstream_audit.md (2026-10-31).
-# Counts only: the dictionary contents are not reproduced anywhere in this repository.
-UPSTREAM_AUDIT = {
-    "broad-class file": {
-        "data rows": 510,
-        "duplicates": 0,
-        "note": "the '511' in conversation is its line count incl. header",
-    },
-    "master file": {"data rows": 770, "unique normalised": 726, "duplicates": 44, "terms with conflicting labels": 22},
-}
-
 
 def setup(title: str, icon: str = "📘") -> None:
     st.set_page_config(page_title=f"{title} · Khmer NLP Lab", page_icon=icon, layout="wide")

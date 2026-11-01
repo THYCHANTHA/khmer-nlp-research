@@ -46,3 +46,21 @@ unrelated packages that are not project dependencies), then exactly the document
 | `python scripts/run_experiments.py --retokenize` on the same downloaded data | exit 0, 275 s; **every result file identical** to the committed one (`git diff` empty) |
 
 Still not verified: GitHub Actions (never run), Python 3.11, mobile width, linguist review.
+
+## Maintenance update (2026-11-01): fresh clone of the maintenance commit, truly clean environment
+
+A new virtual environment **without** system site-packages, only `pip install -r requirements.txt` and `pip install -e . --no-deps`,
+no `PYTHONPATH`. `matplotlib` was removed from the requirements as it is imported nowhere; the check below shows it is absent and
+nothing needed it.
+
+| Check | Result |
+|---|---|
+| `pip install -r requirements.txt`, `pip install -e . --no-deps` | exit 0, exit 0 |
+| `pip check` | "No broken requirements found", exit 0 |
+| `import matplotlib` | fails as expected (not installed) |
+| `ruff check .` | All checks passed, exit 0 |
+| `pytest` | **75 passed**, exit 0 (69 earlier tests + 6 new manifest tests) |
+| `python scripts/run_experiments.py --retokenize` on the same downloaded data | exit 0, 307 s; every result file and the new `km_wikipedia_analysis_sample.csv` identical to the committed ones; only the recorded library versions in `corpus_summary.json` differ |
+| `streamlit run app/Home.py`, bound to 127.0.0.1 | health 200; routes `/`, `/Text_Preprocessing`, `/TFIDF_Analysis`, `/Research_Evaluation`, `/Methodology_and_Credits` each answered 200 |
+
+Still not verified: GitHub Actions (never run), Python 3.11, mobile width, linguist review. No result changed in this update.

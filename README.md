@@ -1,10 +1,10 @@
 # Khmer NLP Research — stop-word strategies, TF-IDF and exploratory retrieval
 
-**Status: research prototype, v0.1.0, not yet published.** An independent research implementation, informed by an earlier
-collaborative university project at the Institute of Technology of Cambodia (ITC):
-[Nagamiji/Stop_word_Project](https://github.com/Nagamiji/Stop_word_Project). It is **not** an authorised continuation of that
-project and contains none of its code, dictionaries, corpus, tables or results (that repository has no licence and permission has not
-been obtained). See [team contributions](docs/team_contributions.md) and the [audit](docs/upstream_audit.md).
+**Status: research prototype, v0.1.0.** An independent research implementation, informed by an earlier collaborative university
+project at the Institute of Technology of Cambodia (ITC): [Nagamiji/Stop_word_Project](https://github.com/Nagamiji/Stop_word_Project).
+It is **not** an authorised continuation of that project. The original team's materials are not redistributed here because
+reuse permission has not been established. See the [provenance statement](docs/upstream_audit.md) and
+[team contributions](docs/team_contributions.md).
 
 ![Stop-word comparison page](reports/screenshots/03_stopword_comparison.png)
 
@@ -12,9 +12,9 @@ been obtained). See [team contributions](docs/team_contributions.md) and the [au
 
 Khmer is written without word spaces and its function words (particles, prepositions, conjunctions, negations …) are very
 frequent. Whether removing them helps downstream tasks, which categories are safe to remove, and how far a fixed list can be
-trusted are open empirical questions. The audit of the earlier project found claims its own recorded results did not support
-(for example, a retrieval benefit that its known-item test, which has the query document inside the index, cannot show). This
-project rebuilds the experimental infrastructure with held-out queries, controls, uncertainty and honest labelling.
+trusted are open empirical questions. This project builds reproducible experimental infrastructure for them: held-out queries,
+controls, uncertainty estimates, and explicit labelling of what each evaluation can and cannot show (for example, a known-item test
+whose query document is in the index is only a sanity check).
 
 **Research questions.** RQ1 effect on preprocessing · RQ2 effect on TF-IDF representation · RQ3 *(exploratory)* effect on retrieval,
 measured with category-derived proxy labels · RQ4 which linguistic categories to remove/keep (**not answerable here**: needs a
@@ -40,15 +40,16 @@ No categorised Khmer stop-word dictionary is bundled or used. Tier strategies B 
 fixtures but **have not been run on research data**; the public experiments use statistical (frequency-based) lists. Bring your own
 dictionary: `python scripts/run_experiments.py --dictionary my.csv --term-col term --category-col category`, or upload it in the
 app. [`data/samples/synthetic_demo_dictionary.csv`](data/samples/README.md) is a 14-term software demo, not research data.
-Audited facts about the original files (counts only): the broad-class file has **510** entries (511 lines with its header, not 511 words);
-the master file has 770 rows, 726 unique normalised entries, 44 duplicates, 22 terms with conflicting category labels, and rows labelled
-"Phrase" and "Content word" that need linguistic review.
+Whatever dictionary is imported needs linguistic validation first; the importer reports its duplicates, conflicting labels and
+multi-word entries so that this can be done.
 
 ## Data
 
 Khmer Wikipedia lead sections (CC BY-SA 4.0 as reported by the site), downloaded on 2026-10-31 by
 `scripts/download_wikipedia.py` with revision ids and history URLs in [`data/manifest`](data/manifest). 14,701 non-redirect articles listed;
-after filtering (lead ≥ 200 characters, ≥ 50 % Khmer script) **8,806 articles, 2,141,077 tokens, 96,338 distinct terms**; 3,698 articles
+after filtering (lead ≥ 200 characters, ≥ 50 % Khmer script) **8,806 articles, 2,141,077 tokens, 96,338 distinct terms**
+(which of the 14,701 were analysed, and why the others were excluded, is recorded per article in
+[`data/manifest/km_wikipedia_analysis_sample.csv`](data/manifest/km_wikipedia_analysis_sample.csv)); 3,698 articles
 carry at least one topical category (2,943 distinct). The text is not committed. See the [dataset card](docs/dataset_card.md). Licences are separate:
 software MIT, Wikipedia text CC BY-SA 4.0.
 
@@ -74,8 +75,12 @@ software MIT, Wikipedia text CC BY-SA 4.0.
 | control random 50 | 0.4 % | 96,288 | 0.139 |
 
 Removal deletes many tokens but almost no vocabulary: it changes the *concentration* of the distribution (the dominant terms vanish),
-which is not evidence of better downstream performance. Without removal, the top-20 keywords by mean TF-IDF are dominated by
-function words; with removal, content words appear ([figure](reports/figures/top20_keywords.png)).
+which is not evidence of better downstream performance. The top-20 keyword lists by mean TF-IDF change completely when the most
+frequent terms are removed (Jaccard overlap of the top-50 keyword sets with strategy A: 0.099 for B-freq, 0.000 for C-freq, 0.961 for the
+random control), but a frequency cut-off does not isolate meaningful content: very frequent terms that look grammatical to the author
+(not linguist-validated) still appear among the most frequent terms after removal
+([figure](reports/figures/frequent_words_before_after.png)). The keyword changes are descriptive only; they do not show better
+retrieval or classification ([top-20 figure](reports/figures/top20_keywords.png)).
 
 ![Top keywords](reports/figures/top20_keywords.png)
 
@@ -116,8 +121,8 @@ imported dictionary, category contribution and protected words kept.
 python -m venv .venv && .venv\Scripts\activate
 pip install -r requirements.txt
 pip install -e . --no-deps                      # makes the khmer_nlp package importable by the scripts
-python scripts/download_wikipedia.py            # about 15 min, resumable
-python scripts/run_experiments.py --retokenize  # about 5 min
+python scripts/download_wikipedia.py            # resumable; rate-limited (0.2 s pause per batch of 20 articles); about 44 MB of text
+python scripts/run_experiments.py --retokenize  # 268-275 s in the three runs recorded on the development machine
 python scripts/render_figures.py                # optional, needs Microsoft Edge
 streamlit run app/Home.py                       # binds to 127.0.0.1 only
 pytest && ruff check .

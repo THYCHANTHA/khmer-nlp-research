@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-from common import UPSTREAM_AUDIT, jsonfile, note, setup
+from common import jsonfile, note, setup
 
 setup("Methodology and Credits", "📚")
 st.title("Methodology and team credits")
@@ -26,9 +26,9 @@ st.header("Data sources")
 if corpus:
     d = corpus.get("download", {})
     st.markdown(
-        f"- **Khmer Wikipedia** lead sections via the MediaWiki API, retrieved {d.get('retrieved_utc', '?')}. Licence reported by the "
+        f"- **Khmer Wikipedia** lead sections via the MediaWiki API, downloaded on {d.get('retrieved_utc', '?')[:10]}. Licence reported by the "
         f"site: {d.get('rights', {}).get('text', '?')} ({d.get('rights', {}).get('url', '')}). "
-        f"After filtering: {corpus['articles']:,} articles, {corpus['tokens']:,} tokens; all revision ids recorded.\n"
+        f"After filtering: {corpus['articles']:,} articles, {corpus['tokens']:,} tokens; all revision ids recorded; the per-article inclusion status is in `data/manifest/km_wikipedia_analysis_sample.csv`.\n"
         "- Text is **not redistributed** in this repository; scripts re-download it. Attribution is through each article's page "
         "and history link. Wikipedia text is licensed separately (CC BY-SA 4.0) from this project's software licence (MIT)."
     )
@@ -39,14 +39,12 @@ if corpus:
 
 st.header("Stop-word dictionary information")
 note(
-    "<b>No stop-word dictionary is bundled or used in the public experiments.</b> The original ITC team's dictionaries were "
-    "audited but, in the absence of permission, are not copied, shipped or run. The importer accepts any CSV."
+    "<b>No stop-word dictionary is bundled or used in the public experiments.</b> The original ITC project's dictionaries are "
+    "not redistributed here because reuse permission has not been established. The importer accepts any CSV."
 )
-st.markdown("Verified facts about the original files (counts only; contents are not reproduced):")
-st.json(UPSTREAM_AUDIT)
 st.markdown(
-    "The master file contains entries labelled as phrases and as content words, which need linguistic review before being "
-    "treated as stop words. Dictionary validation by a Khmer linguist remains a research task."
+    "Any imported dictionary needs linguistic validation by a Khmer linguist before it is treated as a stop-word resource. "
+    "Until a validated, categorised dictionary is available, RQ4 (which linguistic categories to remove) remains unanswered."
 )
 
 st.header("Team and contribution information")

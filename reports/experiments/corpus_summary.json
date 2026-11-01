@@ -22,6 +22,25 @@
     "pandas": "2.3.3",
     "scipy": "1.17.0"
   },
+  "analysis_sample": {
+    "selection_method": "all non-redirect main-namespace articles listed by the API; no sampling; filters applied in order",
+    "filters": {
+      "min_chars": 200,
+      "min_khmer_ratio": 0.5,
+      "min_tokens": 20
+    },
+    "articles_downloaded": 14701,
+    "included": 8806,
+    "excluded_by_reason": {
+      "too_short": 5660,
+      "not_khmer": 235,
+      "few_tokens": 0
+    },
+    "sample_sha256": "e435f8fc7328bb4e348e871de17083c3b3fe081fa59576a79eae273cddfc6add",
+    "raw_leads_sha256": "c5556f2fd5103d057565b01f5498c5266ce446b8297f50ddcef10a0df79be9fb",
+    "raw_leads_sha256_note": "hash of the exact file analysed; articles change, so a re-download differs",
+    "manifest": "data/manifest/km_wikipedia_analysis_sample.csv"
+  },
   "download": {
     "retrieved_utc": "2026-10-31T15:37:51+00:00",
     "api": "https://km.wikipedia.org/w/api.php",

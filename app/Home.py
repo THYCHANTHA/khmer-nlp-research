@@ -8,7 +8,7 @@ setup("Research Overview", "🔬")
 
 st.markdown(
     '<div class="hero"><h1>Khmer NLP Lab — Stop-Word Research and Text Intelligence</h1>'
-    "Linguistically informed stop-word removal, TF-IDF analysis and exploratory retrieval for Khmer text.</div>",
+    "Tools and exploratory experiments on stop-word removal, TF-IDF representation and retrieval for Khmer text.</div>",
     unsafe_allow_html=True,
 )
 st.write("")
@@ -16,8 +16,8 @@ note(
     "<b>Positioning.</b> This is an <b>independent research implementation</b> informed by an earlier collaborative "
     "university project at the Institute of Technology of Cambodia (ITC): "
     '<a href="https://github.com/Nagamiji/Stop_word_Project">Nagamiji/Stop_word_Project</a>. '
-    "It does not reuse that project's code, dictionary or corpus (the upstream repository carries no licence and "
-    "permission has not been obtained). It is not an authorised continuation of that work."
+    "It does not reuse that project's code, dictionary or corpus, which are not redistributed because reuse "
+    "permission has not been established. It is not an authorised continuation of that work."
 )
 
 c1, c2 = st.columns([3, 2])
@@ -74,10 +74,17 @@ if not need_results():
     for _, r in paired[paired.metric == "nDCG@10"].iterrows():
         verdict = "CI excludes 0" if r.ci_excludes_zero else "CI includes 0"
         st.markdown(f"- {r.strategy}: {r.diff_vs_A:+.4f} [{r.lo:+.4f}, {r.hi:+.4f}] ({verdict})")
-    best = cls.sort_values("macro_f1_mean", ascending=False).iloc[0]
+    diffs = table("classification_diffs.csv")
+    within = bool((diffs.macro_f1_diff_vs_A_mean.abs() < diffs.macro_f1_diff_sd).all())
     st.markdown(
-        f"**Classification.** Best macro-F1 {best.macro_f1_mean:.3f} ({best.strategy}); see the evaluation page for "
-        "per-strategy values and why this task is close to a ceiling."
+        f"**Classification.** Macro-F1 is {cls.macro_f1_mean.min():.3f} to {cls.macro_f1_mean.max():.3f} across the four "
+        f"strategies (fold standard deviations {cls.macro_f1_sd.min():.3f} to {cls.macro_f1_sd.max():.3f}). "
+        + (
+            "Differences from no removal are smaller than the fold-to-fold variation, so no strategy is singled out."
+            if within
+            else "Not every difference from no removal is smaller than the fold-to-fold variation; see the evaluation page."
+        )
+        + " The task is easy and close to a ceiling; see the evaluation page."
     )
     note(
         "These are descriptive results on one sample with weak labels. They do not show that stop-word removal "

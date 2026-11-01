@@ -7,6 +7,5 @@ requests>=2.31
 PyYAML>=6.0
 streamlit>=1.40
 plotly>=5.20
-matplotlib>=3.8
 pytest>=8
 ruff>=0.5

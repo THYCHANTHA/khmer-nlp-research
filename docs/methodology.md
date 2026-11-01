@@ -16,7 +16,7 @@ is 42 everywhere (query sampling, cross-validation folds, bootstrap, random cont
 * Filters (see `corpus_summary.json` for how many records each removed): lead shorter than 200 characters; Khmer-script
   share of non-space characters below 0.5; fewer than 20 tokens.
 
-**Not used**: the original ITC team's dictionary, corpus, code and results (no licence, no permission). See
+**Not used**: the original ITC project's dictionary, corpus, code and results (reuse permission has not been established). See
 `docs/upstream_audit.md`.
 
 ## 2. Normalisation and tokenisation (RQ1)
@@ -100,11 +100,14 @@ assigns linguistic labels. High mutual information marks a candidate for manual 
 ```
 pip install -r requirements.txt
 pip install -e . --no-deps                      # makes the khmer_nlp package importable by the scripts
-python scripts/download_wikipedia.py            # resumable; ~13k articles
+python scripts/download_wikipedia.py            # resumable; lists 14,701 articles (about 44 MB of text)
 python scripts/run_experiments.py --retokenize  # writes reports/experiments/*.csv|json
 python scripts/render_figures.py                # static PNGs (needs Microsoft Edge)
 streamlit run app/Home.py
 pytest && ruff check .
 ```
-The Wikipedia content changes over time: use the recorded revision ids in `data/manifest/` to retrieve the exact versions
-analysed.
+The Wikipedia content changes over time. `data/manifest/km_wikipedia_analysis_sample.csv` records, for every downloaded article,
+the revision id, whether it was analysed, the exclusion reason, and the SHA-256 of the lead text as downloaded, so that a re-download
+can be checked against the analysed version. The sample is **not a random sample**: it is every listed article that passes the
+three filters in section 1, applied in the order too short, not Khmer, too few tokens. `reports/experiments/corpus_summary.json`
+stores the sample checksum (SHA-256 of the sorted `pageid:revid` lines of the included articles) and the hash of the raw file analysed.
